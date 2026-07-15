@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="取色器使用帮助与技术支持。">
+  <title>取色器支持 | Color Picker Support</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f4f7fb; --card:#fff; --text:#172033; --muted:#657086; --line:#dfe5ef; --accent:#2563eb; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; line-height:1.7; }
+    main { width:min(860px,calc(100% - 32px)); margin:0 auto; padding:48px 0 64px; }
+    article { background:var(--card); border:1px solid var(--line); border-radius:24px; padding:36px 40px; }
+    h1 { margin-top:0; } h2 { margin-top:30px; } p,li { color:var(--muted); } a { color:var(--accent); }
+    nav { margin:18px 0; } nav a { margin-right:16px; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#0c1220; --card:#121a2b; --text:#f0f4ff; --muted:#c8d0df; --line:#2b3851; --accent:#8db4ff; } }
+    @media (max-width:640px) { article { padding:26px 22px; } }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <h1>取色器支持</h1>
+    <p>Color Picker Support</p>
+    <nav><a href="./">隐私政策</a><a href="https://github.com/linnaSean/ai-color-picker-privacy/issues">提交问题</a></nav>
+    <h2>快速开始</h2>
+    <ul>
+      <li>点击“开始取色”，从屏幕任意位置选择颜色。</li>
+      <li>点击“上传图片”，选择本地图片后点击像素取色。</li>
+      <li>使用 Option + Command + C 快速启动系统取色器。</li>
+      <li>点击格式右侧的“复制”按钮复制颜色或开发代码。</li>
+    </ul>
+    <h2>常见问题</h2>
+    <p><strong>是否需要联网？</strong><br>不需要。取色、图片分析、历史和收藏均在本地处理。</p>
+    <p><strong>为什么关闭窗口后应用仍在运行？</strong><br>取色器是菜单栏常驻工具，可点击菜单栏“取色”重新打开。</p>
+    <p><strong>如何反馈问题？</strong><br>请通过 <a href="https://github.com/linnaSean/ai-color-picker-privacy/issues">GitHub Issues</a> 联系开发者。</p>
+    <h2 lang="en">English</h2>
+    <p lang="en">Color Picker is an offline macOS color sampling tool. Use Start Picking or Option + Command + C for screen sampling, and Upload Image for local image sampling. For support, open a GitHub Issue.</p>
+  </article>
+</main>
+</body>
+</html>
